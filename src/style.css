@@ -324,9 +324,121 @@ body {
     padding: 0;
     text-align: center;
     color: rgb(245, 173, 160);
-    background-color: rgb(18, 30, 54);
+    background-color: #121e36;
 }
 #footer .copyright{
     background-color: rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+/*********************************************************************
+                            FAQ Styles
+*********************************************************************/
+
+a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+}
+#accordion .panel{
+  border: none;
+  border-bottom: 1px solid #d8973c;
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: -5px;
+}
+#accordion .panel:last-child{ border-bottom: none; }
+#accordion .panel-heading{
+  padding: 0;
+  border-radius: 0;
+}
+#accordion .panel-title a{
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 15px 20px 15px 30px;
+  background: #273e47;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  transition: all 1s ease 0s;
+}
+#accordion .panel-title .fa{
+  margin-right: 0.5rem;
+}
+#accordion .panel-body{
+  padding: 25px 20px 15px 40px;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 28px;
+  background: #d8973c;
+  border: none;
+  position: relative;
+}
+#accordion .panel-body:before{
+  content: "";
+  border-top: 15px solid #273e47;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+#accordion .panel-body:after{
+  content: "";
+  width: 8px;
+  height: 60px;
+  background: #273e47;
+  position: absolute;
+  top: 25%;
+  left: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.199) 0%, rgba(31,31,31,1) 0%, rgba(32,31,31,1) 100%, rgba(1,18,22,1) 100%); 
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #003f69;
+  border-top-color: #efefef;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
