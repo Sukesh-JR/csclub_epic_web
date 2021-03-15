@@ -1,0 +1,24 @@
+{
+  "name": "csclub_epic_web",
+  "version": "1.0.0",
+  "description": "epic_club_website",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sukesh-JR/csclub_epic_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukesh-JR/csclub_epic_web/issues"
+  },
+  "homepage": "https://github.com/Sukesh-JR/csclub_epic_web#readme"
+}
