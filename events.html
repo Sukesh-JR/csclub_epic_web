@@ -1,132 +1,186 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Present Events  </title>
+<html lang="en">
+
+
+    <head>
+        <!--meta tags-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Epic Club</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+
+        <!-- Favicons -->
+        <link href="" rel="icon">
+        <link href="" rel="apple-touch-icon">
+        <!--Imported CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet" />
+        <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+        <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Poppins:400,700'>
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="./src/style.css" />
+        <link rel="stylesheet" href="src/events_style.css">
+
+
+    </head>
+
+    <body>
+
+        <header>
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand img-fluid" href="index.html">
+                        <img src="./src/img/kanchipuram.png" width="50" height="50" alt="">
+                    </a>
+                    <a class="navbar-brand"  href="#" ><strong>EPiC</strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                              <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./team.html">Team</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link active" aria-current="page" href="#">Events This Year</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav><!--End Navbar-->
+        </header>
+
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Poppins:400,700'>
+          <!-- Events-->
 
-      <link rel="stylesheet" href="src/events_style.css">
+        <div class="slider__warpper">
 
-  
-</head>
-
-<body>
-
-
-    <div class="slider__warpper">
-
-      <div class="flex__container flex--bgc animate--start" data-slide="1">
-        <div class="flex__item flex__item--left">
-          <div class="flex__content">
-            <p class="text--sub">Event</p>
-            <h1 class="text--big" style="color: violet;">Violet</h1>
-            <p class="text--normal">A Random Event Description</p>
+            <div class="flex__container flex--bgc animate--start" data-slide="1">
+              <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                  <p class="text--sub">Event</p>
+                  <h1 class="text--big" style="color: violet;">Violet</h1>
+                  <p class="text--normal">A Random Event Description</p>
+                </div>
+                <p class="text__background">A Random Event</p>
+              </div>
+              <div class="flex__item flex__item--right"></div>
+              <img class="event__img" src="src/logo1.png" />
+            </div>
+      
+            <div class="flex__container flex--bgc animate--start" data-slide="2">
+              <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                  <p class="text--sub">Event</p>
+                  <h1 class="text--big" style="color: indigo;">Indigo</h1>
+                  <p class="text--normal">A networking Talk by Dr. Vinod Shastri</p>
+                </div>
+                <p class="text__background">Talk</p>
+              </div>
+              <div class="flex__item flex__item--right"></div>
+              <img class="event__img" src="src/logo1.png" />
+            </div>
+      
+            <div class="flex__container flex--bgc animate--start" data-slide="3">
+              <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                  <p class="text--sub">Event</p>
+                  <h1 class="text--big" style="color: blue;">Blue</h1>
+                  <p class="text--normal">An Networking Event</p>
+                </div>
+                <p class="text__background">Networking</p>
+              </div>
+              <div class="flex__item flex__item--right"></div>
+              <img class="event__img" src="src/logo1.png" />
+            </div>
+      
+            <div class="flex__container flex--bgc animate--start" data-slide="4">
+              <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                  <p class="text--sub">Event</p>
+                  <h1 class="text--big" style="color: green;">Green</h1>
+                  <p class="text--normal">A Random Event Description</p>
+                </div>
+                <p class="text__background">A Random Event</p>
+              </div>
+              <div class="flex__item flex__item--right"></div>
+              <img class="event__img" src="src/logo1.png" />
+            </div>
+      
+        <div class="flex__container flex--bgc flex--active" data-slide="5">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Event</p>
+              <h1 class="text--big" style="color: yellow;">Yellow</h1>
+              <p class="text--normal">A Random Event Description</p>
+                </div>
+                <p class="text__background">A Random Event</p>
           </div>
-          <p class="text__background">A Random Event</p>
+          <div class="flex__item flex__item--right"></div>
+          <img class="event__img" src="src/logo1.png" />
         </div>
-        <div class="flex__item flex__item--right"></div>
-        <img class="event__img" src="css/logo1.png" />
-      </div>
-
-      <div class="flex__container flex--bgc animate--start" data-slide="2">
-        <div class="flex__item flex__item--left">
-          <div class="flex__content">
-            <p class="text--sub">Event</p>
-            <h1 class="text--big" style="color: indigo;">Indigo</h1>
-            <p class="text--normal">A networking Talk by Dr. Vinod Shastri</p>
+        
+        <div class="flex__container flex--bgc animate--start" data-slide="6">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Event</p>
+              <h1 class="text--big" style="color: orange;">Orange</h1>
+              <p class="text--normal">A Random Event Description</p>
+                </div>
+                <p class="text__background">A Random Event</p>
           </div>
-          <p class="text__background">Talk</p>
+          <div class="flex__item flex__item--right"></div>
+          <img class="event__img" src="src/logo1.png" />
         </div>
-        <div class="flex__item flex__item--right"></div>
-        <img class="event__img" src="css/logo1.png" />
-      </div>
-
-      <div class="flex__container flex--bgc animate--start" data-slide="3">
-        <div class="flex__item flex__item--left">
-          <div class="flex__content">
-            <p class="text--sub">Event</p>
-            <h1 class="text--big" style="color: blue;">Blue</h1>
-            <p class="text--normal">An Networking Event</p>
+      
+        <div class="flex__container flex--bgc animate--start" data-slide="7">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <p class="text--sub">Event</p>
+              <h1 class="text--big" style="color: red;">RED</h1>
+              <p class="text--normal">A Random Event Description</p>
+                </div>
+                <p class="text__background">A Random Event</p>
           </div>
-          <p class="text__background">Networking</p>
+          <div class="flex__item flex__item--right"></div>
+          <img class="event__img" src="src/logo1.png" />
         </div>
-        <div class="flex__item flex__item--right"></div>
-        <img class="event__img" src="css/logo1.png" />
-      </div>
-
-      <div class="flex__container flex--bgc animate--start" data-slide="4">
-        <div class="flex__item flex__item--left">
-          <div class="flex__content">
-            <p class="text--sub">Event</p>
-            <h1 class="text--big" style="color: green;">Green</h1>
-            <p class="text--normal">A Random Event Description</p>
-          </div>
-          <p class="text__background">A Random Event</p>
+        
         </div>
-        <div class="flex__item flex__item--right"></div>
-        <img class="event__img" src="css/logo1.png" />
+      
+      <div class="slider__navi">
+        <a href="#" class="slide-nav active" data-slide="1">Violet</a>
+        <a href="#" class="slide-nav" data-slide="2">Indigo</a>
+        <a href="#" class="slide-nav" data-slide="3">Blue</a>
+        <a href="#" class="slide-nav" data-slide="4">Indigo</a>
+        <a href="#" class="slide-nav" data-slide="5">Yellow</a>
+        <a href="#" class="slide-nav" data-slide="6">Orange</a>
+        <a href="#" class="slide-nav" data-slide="7">Red</a>
       </div>
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+      
+          <script src="src/events.js"></script>
 
-  <div class="flex__container flex--bgc flex--active" data-slide="5">
-    <div class="flex__item flex__item--left">
-      <div class="flex__content">
-        <p class="text--sub">Event</p>
-        <h1 class="text--big" style="color: yellow;">Yellow</h1>
-        <p class="text--normal">A Random Event Description</p>
-          </div>
-          <p class="text__background">A Random Event</p>
-    </div>
-    <div class="flex__item flex__item--right"></div>
-    <img class="event__img" src="css/logo1.png" />
-  </div>
-  
-  <div class="flex__container flex--bgc animate--start" data-slide="6">
-    <div class="flex__item flex__item--left">
-      <div class="flex__content">
-        <p class="text--sub">Event</p>
-        <h1 class="text--big" style="color: orange;">Orange</h1>
-        <p class="text--normal">A Random Event Description</p>
-          </div>
-          <p class="text__background">A Random Event</p>
-    </div>
-    <div class="flex__item flex__item--right"></div>
-    <img class="event__img" src="css/logo1.png" />
-  </div>
+            <!-- EVENTS end-->   
 
-  <div class="flex__container flex--bgc animate--start" data-slide="7">
-    <div class="flex__item flex__item--left">
-      <div class="flex__content">
-        <p class="text--sub">Event</p>
-        <h1 class="text--big" style="color: red;">RED</h1>
-        <p class="text--normal">A Random Event Description</p>
-          </div>
-          <p class="text__background">A Random Event</p>
-    </div>
-    <div class="flex__item flex__item--right"></div>
-    <img class="event__img" src="src/logo1.png" />
-  </div>
-  
-  </div>
-
-<div class="slider__navi">
-  <a href="#" class="slide-nav active" data-slide="1">Violet</a>
-  <a href="#" class="slide-nav" data-slide="2">Indigo</a>
-  <a href="#" class="slide-nav" data-slide="3">Blue</a>
-  <a href="#" class="slide-nav" data-slide="4">Indigo</a>
-  <a href="#" class="slide-nav" data-slide="5">Yellow</a>
-  <a href="#" class="slide-nav" data-slide="6">Orange</a>
-  <a href="#" class="slide-nav" data-slide="7">Red</a>
-  <a href="./index.html">Home</a>
- 
-
-</div>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-    <script src="src/events.js"></script>
-
-</body>
+    </body>
 </html>
