@@ -11,8 +11,8 @@
         <meta content="" name="keywords">
 
         <!-- Favicons -->
-        <link href="./src/logo1.png" rel="icon">
-        <link href="./src/logo1.png" rel="apple-touch-icon">
+        <link href="" rel="icon">
+        <link href="" rel="apple-touch-icon">
         <!--Imported CSS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -44,23 +44,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarToggler">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item ">
-                              <a class="nav-link" href="./index.html">Home</a>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="./team.html">Team</a>
+                            <a class="nav-link" href="team.html">Team</a>
                             </li>
                             <li class="nav-item active">
-                              <a class="nav-link active" aria-current="page" href="#">Events This Year</a>
+                                <a class="nav-link  active" aria-current="page" href="events.html">Events This Year</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="pasteve.html">Past Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./timeline.html">Timeline</a>
+                                <a class="nav-link" href="timeline.html">Timeline</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -74,17 +74,32 @@
 
         <div class="slider__warpper">
 
+          <div class="flex__container flex--bgc flex--active" data-slide="0">
+            <div class="flex__item flex__item--left">
+              <div class="flex__content">
+                <p class="text--sub">Event</p>
+                <h1 class="text--big" style="color: white;">Intro Event</h1>
+                <p class="text--normal">We had a quick and a informal Introduction to the EPiC</p>
+                  </div>
+                  <p class="text__background">Introduction</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="event__img" src="src/logo1.png" />
+          </div>
+
             <div class="flex__container flex--bgc animate--start" data-slide="1">
               <div class="flex__item flex__item--left">
                 <div class="flex__content">
                   <p class="text--sub">Event</p>
                   <h1 class="text--big" style="color: violet;">Violet</h1>
-                  <p class="text--normal">A Random Event Description</p>
+                  <p class="text--normal">Let's CATCH UP - Event with Juniors</p>
+                  <a class="btn btn-outline-light btn-floating m-1" href="event1.html" role="button"
+                  >Readmore</a>
                 </div>
-                <p class="text__background">A Random Event</p>
+                <p class="text__background">Networking</p>
               </div>
               <div class="flex__item flex__item--right"></div>
-              <img class="event__img" src="src/logo1.png" />
+              <img class="event__img" src="src/catch up.jpg" />
             </div>
       
             <div class="flex__container flex--bgc animate--start" data-slide="2">
@@ -92,12 +107,14 @@
                 <div class="flex__content">
                   <p class="text--sub">Event</p>
                   <h1 class="text--big" style="color: indigo;">Indigo</h1>
-                  <p class="text--normal">A networking Talk by Dr. Vinod Shastri</p>
+                  <p class="text--normal">A Networking Talk by Dr. Vinod Shastri</p>
+                  <a class="btn btn-outline-light btn-floating m-1" href="event1.html" role="button"
+                  >Readmore</a>
                 </div>
-                <p class="text__background">Talk</p>
+                <p class="text__background">Networking</p>
               </div>
               <div class="flex__item flex__item--right"></div>
-              <img class="event__img" src="src/logo1.png" />
+              <img class="event__img" src="src/vinod.jpg" />
             </div>
       
             <div class="flex__container flex--bgc animate--start" data-slide="3">
@@ -105,14 +122,16 @@
                 <div class="flex__content">
                   <p class="text--sub">Event</p>
                   <h1 class="text--big" style="color: blue;">Blue</h1>
-                  <p class="text--normal">An Networking Event</p>
+                  <p class="text--normal">An Networking Event for all seniors in the campus</p>
+                  <a class="btn btn-outline-light btn-floating m-1" href="event1.html" role="button"
+                  >Readmore</a>
                 </div>
                 <p class="text__background">Networking</p>
               </div>
               <div class="flex__item flex__item--right"></div>
-              <img class="event__img" src="src/logo1.png" />
+              <img class="event__img" src="src/blue.PNG" />
             </div>
-      
+       <!-- 
             <div class="flex__container flex--bgc animate--start" data-slide="4">
               <div class="flex__item flex__item--left">
                 <div class="flex__content">
@@ -126,7 +145,7 @@
               <img class="event__img" src="src/logo1.png" />
             </div>
       
-        <div class="flex__container flex--bgc flex--active" data-slide="5">
+        <div class="flex__container flex--bgc animate--start" data-slide="5">
           <div class="flex__item flex__item--left">
             <div class="flex__content">
               <p class="text--sub">Event</p>
@@ -164,25 +183,26 @@
           <div class="flex__item flex__item--right"></div>
           <img class="event__img" src="src/logo1.png" />
         </div>
-        
+-->
         </div>
       
       <div class="slider__navi">
-        <a href="#" class="slide-nav active" data-slide="1">Violet</a>
+        <a href="#" class="slide-nav active" data-slide="0">Introduction</a>
+        <a href="#" class="slide-nav" data-slide="1">Violet</a>
         <a href="#" class="slide-nav" data-slide="2">Indigo</a>
         <a href="#" class="slide-nav" data-slide="3">Blue</a>
-        <a href="#" class="slide-nav" data-slide="4">Indigo</a>
+        <!--
+        <a href="#" class="slide-nav" data-slide="4">Green</a>
         <a href="#" class="slide-nav" data-slide="5">Yellow</a>
         <a href="#" class="slide-nav" data-slide="6">Orange</a>
         <a href="#" class="slide-nav" data-slide="7">Red</a>
+        -->
       </div>
         <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
       
           <script src="src/events.js"></script>
 
-            <!-- EVENTS end-->
+            <!-- EVENTS end-->   
 
     </body>
 </html>
