@@ -347,14 +347,23 @@ body {
 
 
 /*********************************************************************
-                            Mission Styles
+                            Vision Styles
 *********************************************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Bitter);
 
 .deck {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.deck p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
 }
 
 .card-space:hover .card {
@@ -386,23 +395,26 @@ body {
 .face {
   border-radius: 10px;
   box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
-  background-color: #3973ac;
   padding: 20px;
   position: absolute;
   height: 100%;
   width: 100%;
+  color: white;
 }
 .face h1 {
   padding: 0;
 }
 .face.front {
   text-align: center;
+  background-color: #273e47;
   z-index: 20;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transform: rotateY(0deg);
 }
 .face.back {
+  text-align: center;
+  background-color: #d8973c;
   transform: rotateY(180deg);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;

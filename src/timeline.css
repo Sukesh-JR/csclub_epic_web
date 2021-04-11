@@ -215,9 +215,12 @@
     }
   }
   #timeline .demo-card .body p {
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 12px;
+    margin-bottom: 10px;
+  }
+  #timeline .demo-card .body h4 {
+    font-weight: bold;
   }
   #timeline .demo-card-step {
     background-color: #1451AC;
