@@ -14,6 +14,12 @@ $(document).ready(function(){
     });
 });
 
+$(window).scroll(function() {
+  var offset = $(window).scrollTop();
+  console.log(offset);
+  $('.navbar').toggleClass('trans', offset < 530);
+});
+
 $(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
